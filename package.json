@@ -1,0 +1,1 @@
+{"name":"nonprofit-listing-cutouts","private":true,"type":"module","scripts":{"start":"tsx src/listing_service.ts","setup":"tsx src/listing_service.ts setup","test":"tsx --test src/listing_policy.test.ts","typecheck":"tsc --noEmit"},"dependencies":{"zod":"^3.24.2"},"devDependencies":{"@types/node":"^22.13.0","tsx":"^4.19.3","typescript":"^5.7.3"}}

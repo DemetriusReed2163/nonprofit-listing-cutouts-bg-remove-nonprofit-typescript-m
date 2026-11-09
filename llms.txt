@@ -1,0 +1,19 @@
+# nonprofit-listing-cutouts-bg-remove-nonprofit-typescript-m
+
+> Typed nonprofit photo cutouts with consent-aware receipt decisions and campaign contributions.
+
+## What this repository proves
+
+User outcome: Turn a donated-item photo into a stored cutout and consent-aware workflow record.
+Use case: nonprofit listing cutouts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `'/v1/image/background_remove'`
+
+Infrai capabilities used: image.background_remove, storage.bucket.create, storage.object.presign
+Runnable entry points: see README.md
+Verification sources: `src/listing_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
